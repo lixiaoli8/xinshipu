@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style4.css"/>
+	</head>
+	<body>
+		<header></header>
+		<nav></nav>
+		<section></section>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript">
+	$(function(){
+		$("header").load("header.html");
+		$("nav").load("nav.html");
+		$("section").load("section.html");
+	});
+</script>	
+<!--function _(id){
+	return document.getElementById(id);
+}
+function box1(obj){
+	this.domobj=null;
+	this.width=obj.width;
+	this.height=obj.height;
+	this.backgroundColor=obj.bgColor;
+	this.color=obj.color;
+	this.timespace=obj.timespace;
+	this.step=obj.step;
+	this.direction=obj.direction;
+}
+   createui();
+//动态创建li
+box1.prototype.createui=function(){
+	this.lidom=document.createElement("li");
+	this.lidom.style.cssText="float:left;position:absolute;";
+	this.lidom.style.left=this.left+"px";
+	this.lidom.style.top=this.top+"px";
+	this.lidom.style.width=this.width+"px";
+	this.lidom.style.height=this.height+"px";
+	this.lidom.style.backgroundColor=this.bgColor;
+	this.lidom.style.color=this.color;
+	_("box").appendChild(this.lidom);
+}
+box1.prototype.go=function(){
+	//启动定时器
+	setInterval(()=>{
+		this.left=this.left+this.direction*this.step;
+		this.top=this.top+this
+		
+	})
+	//判断数据
+	
+	
+}
+</script>	-->

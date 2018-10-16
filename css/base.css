@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,a,img,ul,li,ol,dl,dt,dd,input{ padding:0; margin:0}
+ul,ol{ list-style:none;}
+input{ outline:none;background:none;border:0}
+img{ display:block; border:0;}
+h1,h2{font-weight:100;}
+body{ font-size:12px; color:#333; font-family:"微软雅黑"; background:#eee}
+
+a{ text-decoration:none; color:#333;}
+a:hover{ color:#53cac3;}
+/*========================public================*/
+.w{ width:960px; margin:0 auto}
+.l{ float:left;}
+.r{ float:right}
+/*==============header=========*/
+html,body{height:100%}
+*{padding:0;margin:0;}
+header{height:90px;background:#fff;}
+header .w h1{width:160px;height:51px;background-size:160px 51px;margin-top:20px;}
+header .w ul{width:442px;height:40px;margin-top:25px;margin-left:30px;}
+header .w ul li:nth-child(1) {border:1px solid #000;border-right:0;display:inline-block;width:361px;height:38px;}
+header .w ul li:nth-child(1) input{font-size:24px;margin:7px 10px;}
+header .w ul li:nth-child(2){background:#f60;width:80px;height:40px;float:right;} 
+header .w ul li:nth-child(2) input {width:80px;height:40px;color:#fff;border:0;} 
+header .w a{display:inline-block;margin:32px 10px;}
+header .w a:hover{color:#f60;}
+header .w a :nth-child(1){font-size:20px;}
+header .w a :nth-child(2){font-size:14px;color:eee;line-height:20px;}
+/*=============nav================*/
+nav{height:40px;background:#f60;}
+nav .w ul{height:40px;text-align:center;}
+nav .w ul li{display:inline-block;line-height:36px;margin-top:4px;width:100px;height:36px;}
+nav .w ul li:hover{background:#fff;}
+nav .w ul li.first{background:#fff;}
+nav .w ul li a{font-size:16px;display:inline-block;width:100px;height:36px;color:#fff;}
+nav .w ul li a:hover{color:#f60;}
+nav .w ul li.first a{width:68px;height:36px;color:#f60;}
+nav .w ul li.last a{width:68px;height:36px;}

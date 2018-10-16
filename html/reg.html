@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/style6.css" />
+	</head>
+	<body>
+		<header></header>
+		<nav></nav>
+		<section>
+			<div class="w">
+				<div class=all>
+					<h2>注册</h2>
+					<div class="up">
+						<div class="first">
+							<i class="iconfont">&#xe653;</i>
+							<input type="text" value="email" >
+						</div>
+						<div class="second">
+							<i class="iconfont">&#xe604;</i>
+							<input type="text" value="用户名" >
+						</div>
+						<div class="third">
+							<i class="iconfont">&#xe6a8;</i>
+							<input type="text" value="密码" >
+						</div>
+						<div class="fourth">
+							<i class="iconfont">&#xe6a8;</i>
+							<input type="text" value="确认密码" >
+						</div>
+						<input class="last" type="text" value="验证码">
+						<div id="big"></div>
+						
+						<input type="checkbox" class="left" ><span>记住密码</span>
+						<a href="#">忘记密码？</a>
+						<input type="button" value="完成注册" class="up2">
+					</div>
+					<div class="down">
+					    <input type="text" class="iconfont" value="&#xe65a;">
+					    <span>已经有账号了?<a href="#">登录</a></span>
+					</div>
+					
+				</div>
+			
+			</div>
+			<div class="down1">
+				<span>©2018 xinshipu.com, all rights reserved. 沪ICP备10013164</span>
+			</div>
+		</section>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript">
+	$(function () {
+		$("header").load("header.html");
+		$("nav").load("nav.html");
+		
+	})
+	
+		$(".up input:nth-child(2)").click(function(){
+			
+			$(this).val(null);
+		});
+		$(".up .last").click(function(){
+			$(this).val(null);
+		})
+		
+	function _(id){
+	return document.getElementById(id);
+}
+	window.onload=function(){
+		_("big").innerHTML=parseInt(Math.random()*991)+1000;
+	}
+
+	
+</script>

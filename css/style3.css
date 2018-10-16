@@ -1,0 +1,30 @@
+
+section{height:470px;margin-top:20px;}
+section .w #loadbox{width:868px;height:470px;border:1px solid #ccc;margin:100px auto;}
+section .w #loadbox #bigbox #up{height:38px;border:1px solid #ccc;background:orange;}
+section .w #loadbox #bigbox #up h2{padding-left:10px;line-height: 38px;font-weight:100;color:#fff;}
+section .w #loadbox #bigbox #up a{display:inline-block;width:20px;height:20px;font-size:16px;border:1px solid #ccc;margin:9px 10px;font-weight:bold;color:#f60;text-align:center;background:#fff;}
+section .w #loadbox #bigbox #up a:hover{background:#E7E1CD;}
+section .w #loadbox #bigbox h1{height:58px;line-height:58px;text-align:center;font-size:22px;margin-top:10px;color:#333333}
+section .w #loadbox #bigbox .center{height:226px;}
+section .w #loadbox #bigbox .center .up1{height:30px;background:#f60;}
+section .w #loadbox #bigbox .center  .l{float:left;width:421px;height:104px;margin-top:20px;}
+section .w #loadbox #bigbox .center  .l .in{color:#aaa;border-radius:10px;padding-left:10px;width:249px;height:42px;margin-left:86px;border:1px solid #ccc;margin-top:20px;}
+section .w #loadbox #bigbox .center  .l .in:hover{border:1px solid #f60;box-shadow:-4px 4px 8px #ccc}
+section .w #loadbox #bigbox .center  .l .in i{font-size:22px;}
+section .w #loadbox #bigbox .center  .l .in input{color:#aaa;width:197px;height:38px;}
+section .w #loadbox #bigbox .center .r{height:146px;width:419px;}
+section .w #loadbox #bigbox .center .r input{color:#aaa;width:249px;height:40px;margin-top:20px;border-radius: 10px;}
+section .w #loadbox #bigbox .center .r input.iconfont{font-size:18px;}
+section .w #loadbox #bigbox .center .r input:nth-child(1){background:#0086B3;color:#fff;}
+section .w #loadbox #bigbox .center .r input:nth-child(2){background:#666666;}
+section .w #loadbox #bigbox .center .r .last{border-radius: 10px;width:244px;height:40px;border:1px solid #ccc;position:relative;margin-top:20px;}
+section .w #loadbox #bigbox .center .r .last .iconfont{font-size:22px;color:#f60;position:absolute;left:113px;top:9px;}
+section .w #loadbox #bigbox .center .r .last:hover{background:#f60;}
+section .w #loadbox #bigbox .center .r .last:hover .iconfont{color:#fff;}
+section .w #loadbox #bigbox  .last1{height:64px;border-top:1px solid #ccc;float:right;width:860px;}
+section .w #loadbox #bigbox  .last1 span{display:block;width:60px;height:32px;background:#fff;line-height:32px;border-radius:6px;color:#0086B3;float:right;border:1px solid #ccc;text-align:center;margin-right:20px;margin-top:16px;}
+section .w #loadbox #bigbox  .last1 span:hover{background:#E7E1CD;color:#DF5000;}
+         
+
+

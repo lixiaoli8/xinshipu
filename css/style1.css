@@ -1,0 +1,24 @@
+body{background:#fff;}
+/*=========section==========*/
+section .w .box{height:;border:1px solid #ccc;margin-top:40px;}
+section .w .box div.helps{height:58px;line-height:58px;font-size:18px;text-align:center;border-bottom:1px solid #ccc;}
+section .w .box .big{height:282px;}
+section .w .box .big .l{float:left;width:421px;height:202px;margin-top:20px;border-right:1px dashed #ccc;}
+section .w .box .big .l .in{color:#aaa;border-radius:10px;padding-left:10px;width:249px;height:42px;margin-left:86px;border:1px solid #ccc;}
+section .w .box .big .l .in:hover{border:1px solid #f60;box-shadow:-4px 4px 8px #ccc}
+section .w .box .big .l .in i{font-size:22px;}
+section .w .box .big .l .in input{color:#aaa;width:197px;height:38px;}
+section .w .box .big .l .in:nth-child(2){margin-top:20px;}
+section .w .box .big .l  a{float:right;width:70px;height:18px;margin-right:60px;margin-top:20px;font-size:14px}
+section .w .box .big .l  a:hover{color:#f60}
+section .w .box .big .l input.last{color:#fff;background:#f60;border:1px solid #ccc;border-radius:10px;width:249px;height:40px;line-height:40px;font-size:18px;margin-left:86px;margin-top:20px;}
+section .w .box .big .r{width:500px;height:112px;margin-top:20px}
+section .w .box .big .r .out{width:244px;height:40px;border-radius:10px;border:1px solid #ccc;margin-left:80px;position:absolute}
+section .w .box .big .r .out i{color:#f60;font-size:22px;position:absolute;left:111px;top:9px;}
+section .w .box .big .r .out:hover{background:#f60}
+section .w .box .big .r .out i:hover{color:#fff;}
+section .w .box .big .r p{display:block;width:140px;height:17px;float:right;margin-top:67px;margin-right:150px;color:#ccc;}
+section .w .box .big .r p span{color:#000;}
+section .w .box .big .r p span:hover{color:#f60}
+
+

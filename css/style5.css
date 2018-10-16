@@ -1,0 +1,31 @@
+section .w .r{height:250px;width:300px;border:1px solid #ccc; margin-top:20px;display:flex;}
+section .w .r img{display:block;width:295px;height:211px;margin:auto;}
+section .w h1{height:29px;line-height:29px;font-size:22px;margin-top:20px;}
+section .w .box{float:left;width:638px;}
+section .w .box .l{width:196px;height:163px;margin:0 10px;margin-top:20px;border:1px solid #ccc;}
+section .w .box .l{border:1px solid #E7E1CD;box-shadow:-5px 5px 5px #ccc,-5px 5px 5px #f60,5px -5px 10px #ccc;}
+section .w .box .l.first{margin-left:0;}
+section .w .box .l.two{margin-right:0;}
+section .w .box .l a{display:inline-block;width:196px;height:126px;}
+section .w .box .l a img{display:block;width:196px;height:126px}
+section .w .box .l .last{text-align:center;line-height:34px;height:34px;}
+section .w .box .l .last:hover{color:#f60;}
+section .w .box a.l1{display:inline-block;width:34px;height:32px;border:1px solid #ccc;margin:20px 10px;text-align:center;line-height:32px;}
+section .w .box a.l1.first{margin-left:50px;}
+section .w .box a.l1.last{width:82px;height:32px;background:#f60;color:#fff;}
+section .w .box a.l1.last span{border-left:1px solid #f60;border-top:1px solid #f60;border-bottom:1px solid #f60;border-right:7px solid #fff;   }
+section .w .last1{width:638px;height:327px;float:left;}
+section .w .last1 span{display:block;width:64px;height:19px;line-height:19px;font-size:16px;margin:20px 20px;color:#f60;}
+section .w .last1 .clear1{width:247px;height:264px;float:left}
+section .w .last1 .clear1 a{display:block;width:238px;height:35px;margin-left:20px;}
+section .w .last1 .clear1 a:hover{color:#f60}
+section .w .last1 .clear2{width:300px;height:250px;border:1px solid #ccc;float:right;}
+section .w .last1 .clear2 #nav0{width:298px;height:222px;position:relative;display:flex;}
+section .w .last1 .clear2 #nav1{width:640px;height:26px;float:left;}
+
+/*section .w .last1 .clear2 #nav0{width:298px;height:222px;display:flex;}
+section .w .last1 .clear2 #nav0 img{display:block;width:297px;height:211px;margin:auto;}*/
+
+section .w .last1 .clear2 #nav1 div{width:33px;height:26px;float:left;margin:0px 4px;}
+section .w .last1 .clear2 #nav1  img{width:33px;height:26px;background-size:33px 26px;display:block;}
+

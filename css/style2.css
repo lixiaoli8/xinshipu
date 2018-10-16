@@ -1,0 +1,9 @@
+section{height:531px;}
+section .w a{display:inline-block;width:174px;height:58px;text-align:center;line-height:58px;font-size:16px;}
+section .w a .in{margin-top:30px;border:1px solid #ccc;border-bottom:none;}
+section .w a .in1{color:#f60;margin-left:2px;border-left:1px solid #ccc;border-top:2px solid #f60;border-right:1px solid #ccc}
+section .w .out{height:438px;border:1px solid #ccc;}
+section .w .out .out1{margin:46px 161px;width:638px;height:346px;}
+section .w .out h2{font-size:18px;line-height:20px;font-weight:100;margin-top:20px;}
+section .w .out textarea{margin-top:10px;height:87px;width:638px;}
+section .w .out .out1 input{width:122px;height:40px;background:#f60;color:#fff;float:right;margin-top:20px;}

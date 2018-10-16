@@ -1,0 +1,129 @@
+
+*==============header=========*/
+html,body{height:100%}
+*{padding:0;margin:0;}
+header{height:90px;background:#fff;}
+header .w h1{width:160px;height:51px;background-size:160px 51px;margin-top:20px;}
+header .w ul{width:442px;height:40px;margin-top:25px;margin-left:30px;}
+header .w ul li:nth-child(1) {border:1px solid #000;border-right:0;display:inline-block;width:361px;height:38px;}
+header .w ul li:nth-child(1) input{font-size:24px;margin:7px 10px;}
+header .w ul li:nth-child(2){background:#f60;width:80px;height:40px;float:right;} 
+header .w ul li:nth-child(2) input {width:80px;height:40px;color:#fff;border:0;} 
+header .w a{display:inline-block;margin:32px 10px;}
+header .w a:hover{color:#f60;}
+header .w a :nth-child(1){font-size:20px;}
+header .w a :nth-child(2){font-size:14px;color:eee;line-height:20px;}
+/*=============nav================*/
+nav{height:40px;background:#f60;}
+nav .w ul{height:40px;text-align:center;}
+nav .w ul li{display:inline-block;line-height:36px;margin-top:4px;width:100px;height:36px;}
+nav .w ul li:hover{background:#fff;}
+nav .w ul li.first{background:#fff;}
+nav .w ul li a{font-size:16px;display:inline-block;width:100px;height:36px;color:#fff;}
+nav .w ul li a:hover{color:#f60;}
+nav .w ul li.first a{width:68px;height:36px;color:#f60;}
+nav .w ul li.last a{width:68px;height:36px;}
+nav .w .r{width:268px;margin-top:20px;padding:10px 16px;float:right;}
+nav .w .r .r3{height:372px;width:268px;border:1px solid #ccc;}
+nav .w .r .r3 .f1{width:263px;height:20px;text-align:center;}
+nav .w .r .r3 .f1 h2{font-size:14px;color:#DF5000;line-height:14px;}
+nav .w .r .r3 input{display:block;width:246px;height:42px;border:1px solid #ccc;margin-top:10px;margin-left:10px;}
+nav .w .r .r3 .iconfont{padding-left:4px;font-size:18px;}
+nav .w .r .r3 input:hover{border:1px solid #f60;text-shadow:-2px 2px 2px #f60}
+nav .w .r .r3 a{display:inline-block;width:56px;height:18px;border:none;font-size:14px;margin-top:5px;}
+nav .w .r .r3 a:hover{color:#f60;}
+nav .w .r .r3 div.clear{margin-left:10px;margin-top:20px;border-radius:10px;width:246px;height:40px;background:#f60;color:#fff;text-align:center;float:left;line-height:40px;font-size:14px;}
+nav .w .r .r3 div.clear1 input{font-size:14px;font-weight:100;margin-left:10px;border-radius:10px;color:#fff;float:left;background:#666666;width:246px;height:40px;margin-top:20px;font-size:14px;line-height:40px;border:1px solid #000;text-align: center;}
+nav .w .r .r3 div.clear1 input.iconfont{font-size:14px;}
+
+nav .w .r .r3 div.clear2{margin-left:10px;width:244px;height:40px;margin-top:20px;float:left;border:1px solid #ccc;border-radius:10px;position:relative;}
+nav .w .r .r3 div.clear2 i.iconfont{font-size:22px;position:absolute;left:111px;top:9px;color: #f60;}
+nav .w .r .r3 div.clear2:hover{background: #f60;}
+nav .w .r .r3 div.clear2:hover i.iconfont{color:#fff;}
+nav .w .r .r4{border:1px solid #ccc;margin-top:20px;width:268px;}
+nav .w .r .r4:hover{box-shadow:inset -4px -4px 4px #ccc;}
+nav .w .r .r4 .f2{width:263px;height:20px;text-align:center;}
+nav .w .r .r4 .f2 h2{font-size:14px;color:#DF5000;line-height:14px;}
+nav .w .r .r4 a{display:inline-block;width:128px;height:47px;margin:10px 28px;text-align:center;font-size:14px;}
+nav .w .r .r4 a:hover{color:#f0f;}
+nav .w .r .r4 i{font-size:28px;color:#DF5000}
+nav .w .r .r5{border:1px solid #ccc;margin-top:20px;width:268px;}
+nav .w .r .r5 .f2{width:263px;height:20px;text-align:center;}
+nav .w .r .r5 .f2 h2{font-size:14px;color:#DF5000;line-height:14px;}
+nav .w .r .r5 a{text-align:center;line-height:45px;display:inline-block;width:108px;height:45px;color:#fff;background:#000;margin:10px 10px;border-radius:10px;}
+nav .w .r .r5 a i{color:#fff;}
+nav .w .r .r5 a:hover{background:#f60;}
+/*nav .w .r1{width:300px;background:#f60;float:right;height:372px;}*/
+
+/*==============section=========*/
+section {margin-top:20px;}
+section .w h2{height:21px;font-size:16px;color:#aaa;font-weight:100;}
+section .w > ul{text-align:center;margin-top:5px;border:1px solid #ccc;box-shadow:-3px 3px 3px #ccc;overflow:hidden;display:inline-block;}
+section .w > ul li{width:84px;height:39px;float:left;border-right:1px solid #ccc;}
+section .w > ul li a{display:inline-block;width:81px;height:39px;padding-left:3px;line-height:39px;font-size:14px;}
+section .w > ul li.last {border-right:none;}
+section .w > ul li:hover{background:red;}
+section .w > ul li:hover a{color:#fff;}
+section .w > h3{width:632px;height:36px;margin-top:10px;font-weight:100;border-bottom:2px solid #bbb;margin-bottom:12px;}
+section .w > h3 span{font-size:16px;color:#aaa;}
+section .w > h3 a{color:#999;}
+section .w > h3 a:hover{color:#f60;}
+section .w > dl{height:200px;width:632px;}
+/*方案1外面的盒子浮动，图片浮动
+section .w dl dt{width:416px;float:left;}
+section .w dl dt img{float:left;display:block;width:416px;height:200px;background-size:416px 200px;}
+section .w dl dt span.s1{opacity:0;display:block;width:416px;height:200px;background:#000;}
+*/
+/*方案2*遮罩层绝对定位，外面的盒子相对定位且浮动*/
+section .w dl.l1 dt{position:relative;width:416px;float:left;}
+section .w dl.l1 dt img{display:block;width:416px;height:200px;background-size:416px 200px;}
+section .w dl.l1 dt span.s1{position:absolute;left:0;top:0;opacity:0;display:block;width:416px;height:200px;background:#000;}
+section .w dl.l1 dt span.s1:hover{opacity:0.4;}
+section .w dl.l1 dd{float:right;width:214px;height:200px;border:1px solid #ccc}
+section .w dl.l1 dd h2{font-size:20px;line-height:24px;width:80px;height:24px}
+section .w dl.l1 dd i{font-size:24px;}
+section .w dl.l1 dd a{width:64px;height:38px;margin-top:30px;line-height:38px;display:inline-block;font-size:16px;padding-left:16px;}
+section .w dl.l1 dd a:hover{color:#f60;} 
+section .w .box{width:632px;height:300px;position:relative;}
+section .w dl.l2 dt{position:relative;width:416px;float:left;}                                                                       
+section .w dl.l2 dt img{display:block;width:416px;height:200px;background-size:416px 200px;}                                         
+section .w dl.l2 dt span.s1{position:absolute;left:0;top:0;opacity:0;display:block;width:416px;height:200px;background:#000;}        
+section .w dl.l2 dt span.s1:hover{opacity:0.4;}                                                                                      
+section .w dl.l2 dd{float:right;width:214px;height:200px;border:1px solid #ccc}                                                      
+section .w dl.l2 dd h2{font-size:20px;line-height:24px;width:80px;height:24px}                                                     
+section .w dl.l2 dd i{font-size:24px;}                                                                                               
+section .w dl.l2 dd a{width:64px;height:38px;margin-top:30px;line-height:38px;display:inline-block;font-size:16px;padding-left:16px;}
+section .w dl.l2 dd a:hover{color:#f60;}                                                                                            section .w .box{width:632px;height:300px;position:relative;}
+section .w .box1{width:632px;overflow: hidden;display:inline-block;}
+section .w .box1 div{width:194px;height:200px;float:left;margin-top:10px;margin-right:22px;border:1px solid #ccc;}
+section .w .box1 div:hover{border:1px solid #DF5000;box-shadow:2px 2px 2px #DF5000;}
+section .w .box1 div.last{margin-right:0;}
+section .w .box1 div img{display:block;width:196px;height:126px;background-size:196px 126px;}
+section .w .box1 div div{border:0;font-size:14px;width:186px;height:18px;line-height:18px;margin-left:10px;} 
+section .w .box1 div div:hover{box-shadow:none;}
+section .w .box1 div a{display:inline-block;width:196px;height:34px;margin-left:5px;} 
+section .w .box1 div a i{font-size:22px;color:#666666}
+section .w dl.l3 dt{position:relative;width:416px;float:left;}                                                                        
+section .w dl.l3 dt img{display:block;width:416px;height:200px;background-size:416px 200px;}                                          
+section .w dl.l3 dt span.s1{position:absolute;left:0;top:0;opacity:0;display:block;width:416px;height:200px;background:#000;}                                                                         section .w dl.l3 dt span.s1:hover{opacity:0.4;}                                                                                       section .w dl.l3 dd{float:right;width:214px;height:200px;border:1px solid #ccc}                                                       section .w dl.l3 dd h2{font-size:20px;line-height:24px;width:80px;height:24px}                                                        section .w dl.l3 dd i{font-size:24px;}                                                                                                section .w dl.l3 dd a{width:64px;height:38px;margin-top:30px;line-height:38px;display:inline-block;font-size:16px;padding-left:16px;} section .w dl.l3 dd a:hover{color:#f60;}
+section .w #box0{width:632px;height:300px;position:relative;} 
+/*==============footer===============*/
+footer{height:235px;background:#ccc;margin-top:20px;padding:20px 0;}
+footer .w  .bottom {height:195px;margin-top:20px;position:relative;}
+footer .w  .bottom img{display:inline-block;}
+footer .w  .bottom .img1{width:88px;height:88px;background-size:88px;}
+footer .w  .bottom .img2{width:88px;height:30px;background-size:88px 30px;position:absolute;top:29px;left:93px;}
+footer .w  .bottom p{float:right;width:700px;height:76px;}
+footer .w  .bottom p a{display:inline-block;width:120px;height:33px;margin:10px 20px;color:#333333;}
+footer .w  .bottom p a:hover{color:#f60;}
+footer .w  .bottom a{display:block;width:56px;height:17px;margin-top:20px;color:#ccc;}
+footer .w  .bottom a:hover{color:#63A35C;}
+footer .w  .bottom p.last{width:250px;height:33px;float:left;}
+footer .w  .bottom p.last a{width:119px;height:17px;}
+footer .w  .bottom p.last1{width:250px;height:33px;float:right}
+footer .w  .bottom p.last1 img{width:58px;height:20px;}
+footer .w  .bottom p.last1 span{display:inline-block;width:96px;height:17px;font-size:12px;text-align:center;line-height:17px;}
+
+
+
+                                                                                                                                                                                                                                 

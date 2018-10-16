@@ -1,0 +1,13 @@
+section .w h1{height:26px;line-height:26px;text-align:center;font-size:18px;margin-top:20px;}
+section .w ul.box{height:168px;margin-top:20px;margin-left:40px;float:left;}
+section .w ul.box li{width:140px;height:56px;float:left;border:1px solid #ccc;background:#404040;text-align:center;opacity:0.6;}
+section .w ul.box li a{display:inline-block;width:140px;height:36px;color:#fff;line-height:56px;font-size:16px;}
+section .w ul.box li a:hover{color:#FF0000}
+section .w .up{padding-left:10px;height:40px;background:#CCCCCC;line-height:40px;float:left;width:850px;margin-top:20px;font-size:16px;margin-left:40px;}
+section .w ul.box1{height:132px;margin-left:40px;}
+section .w ul.box1 li{float:left;width:80px;height:18px;margin:20px 20px}
+section .w ul.box1 li a{font-size:14px;}
+section .w ul.box1 li a:hover{color:red}
+section .w .down{height:36px;background:#ccc;float:left;width:850px;margin-left:40px;}
+section .w .down .r{height:36px;line-height:36px;}
+section .w .down .r span{display:inline-block;height:17px;width:376px;}
